@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/fallpdf-mcp",
+  "version": "1.0.0",
+  "description": "fallpdf MCP server · stdio wrapper around @ai-native-solutions/fallpdf-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fallpdf-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["fallpdf", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallpdf-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/fallpdf-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
